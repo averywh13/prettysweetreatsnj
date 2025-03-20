@@ -13,8 +13,8 @@
 }
 .nav-link {
     position: relative;
-    text-decoration: none;
     overflow: hidden;
+    letter-spacing: 2px;
   }
   
   .nav-link::before {
@@ -30,7 +30,7 @@
   
   .nav-link:hover::before {
     right: 0;
-    background-color: rgb(107, 0, 0); /* Adjust color as needed */
+    background-color: rgb(255, 255, 255); /* Adjust color as needed */
   }
   
   .navbar {
@@ -49,3 +49,33 @@
   .navbar-toggler-icon {
     border-radius: 5px;
   }
+
+
+
+  .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1{
+    margin-top: 50px;
+  }
+  .hr{
+    border-top: 5px solid rgb(255, 255, 255);
+    opacity: 1;
+    width: 50%;
+  }
+  .card-title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "rocinante-titling-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wght" 476;
+  }
+  .card-text{
+    font-family: "new-science-mono", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.intropic{
+  height: 500px;
+}
