@@ -114,8 +114,9 @@
   flex: 0 0 30%;
   margin: 0 1%;
   padding: 15px;
-  background: #f9f9f9;
+  background: #feb6c1;
   border-radius: 10px;
+  border: solid black 3px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
@@ -129,13 +130,14 @@
 .nav-buttons button {
   padding: 10px 15px;
   border: none;
-  background: #007bff;
+  background: #feb6c1;
   color: white;
   cursor: pointer;
   border-radius: 5px;
+  border: solid black 3px;
   margin: 0 5px;
 }
 
 .nav-buttons button:hover {
-  background: #0056b3;
+  background: #bb5383;
 }
