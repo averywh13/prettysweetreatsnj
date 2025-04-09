@@ -1,7 +1,13 @@
 .headerimg {
   width: 100%;
 }
+body{
+  background-image: url('images/image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 
+}
 
 .navbar {
   z-index: 2;
@@ -72,7 +78,9 @@
   opacity: 1;
   width: 50%;
 }
-
+.card{
+  border: 3px solid white;
+}
 .card-title {
   font-size: 3rem;
   font-weight: bold;
@@ -116,7 +124,7 @@
   padding: 15px;
   background: #feb6c1;
   border-radius: 10px;
-  border: solid black 3px;
+  border: solid rgb(255, 255, 255) 3px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
@@ -135,6 +143,7 @@
   cursor: pointer;
   border-radius: 5px;
   border: solid black 3px;
+  border-radius: 10px;
   margin: 0 5px;
 }
 
