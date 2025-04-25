@@ -58,15 +58,6 @@
   .navbar-toggler-icon {
     border-radius: 5px;
   }
-
-  .cardscontainer{
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
-
-card{
-    display: none;
-}
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
 
@@ -178,3 +169,8 @@ card{
 .shape-box_half:hover>.after {
     opacity: 1;
 }
+
+
+
+
+
