@@ -61,7 +61,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
 
-.shape-box {
+
+
+
+
+
+
+
+
+/* .shape-box {
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -81,7 +89,7 @@
 .shape-box_half:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 110px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -154,7 +162,7 @@
 }
 
 /*On hover*/
-.shape-box_half:hover:before {
+/* .shape-box_half:hover:before {
     transform: skewY(20deg);
 }
 
@@ -168,9 +176,173 @@
 
 .shape-box_half:hover>.after {
     opacity: 1;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-hover {
+  overflow: hidden;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card-hover img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.card-hover .card-body {
+  background: #feb6c1;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.card-hover .description {
+  position: absolute;
+  bottom: 55px;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  text-align: center;
+  background: black;
+  transform: translateY(80px);
+  transition: all 0.4s ease;
+  z-index: 1;
+  font-size: 0.9rem;
+}
+
+.card-hover:hover img {
+  filter: brightness(70%);
+  transform: translateY(-20px);
+}
+
+.card-hover:hover .description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img{
+  width:100%;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+.testimonial-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 30%;
+  margin: 0 1%;
+  padding: 15px;
+  background: #feb6c1;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255) 3px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-buttons button {
+  padding: 10px 15px;
+  border: none;
+  background: #feb6c1;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 3px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.nav-buttons button:hover {
+  background: #bb5383;
+  border: solid rgb(187, 187, 187) 3px;
+}
+.testimonial-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 30%;
+  margin: 0 1%;
+  padding: 15px;
+  background: #feb6c1;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255) 3px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav-buttons button {
+  padding: 10px 15px;
+  border: none;
+  background: #feb6c1;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: solid rgb(255, 255, 255) 3px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.nav-buttons button:hover {
+  background: #bb5383;
+  border: solid rgb(187, 187, 187) 3px;
+}
 
 
