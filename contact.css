@@ -1,0 +1,82 @@
+.headerimg {
+    width: 100%;
+  }
+  body{
+    background-image: url('images/image2.png');
+    background-size: cover;
+  
+  }
+  
+  .navbar {
+    z-index: 2;
+    font-size: 20px;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .nav-link {
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 2px;
+  }
+  
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 2px;
+    /* Adjust thickness as needed */
+    background-color: transparent;
+    transition: right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* Adjust timing function as desired */
+  }
+  
+  .nav-link:hover::before {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    /* Adjust color as needed */
+  }
+  
+  .navbar {
+    background: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+    /* Adjust spacing between items */
+  }
+  
+  .navbar-toggler-icon {
+    border-radius: 5px;
+  }
+
+  .contact-container {
+    background-color: #feb6c1;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 700px;
+
+  }
+  .form-button {
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    background-color: black;
+    color:white
+  }
+  .form-button:hover{
+    background-color: black;
+    color:rgb(143, 143, 143)
+  }
