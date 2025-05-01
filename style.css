@@ -10,9 +10,6 @@ body{
 .navbar {
   z-index: 2;
   font-size: 20px;
-  font-family: "basic-sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
 
 .nav-link {
@@ -28,20 +25,15 @@ body{
   right: 100%;
   bottom: 0;
   height: 2px;
-  /* Adjust thickness as needed */
   background-color: transparent;
   transition: right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  /* Adjust timing function as desired */
+  
 }
 
 .nav-link:hover::before {
   right: 0;
   background-color: rgb(255, 255, 255);
   /* Adjust color as needed */
-}
-
-.navbar {
-  background: none;
 }
 
 .navbar-nav {
@@ -59,6 +51,20 @@ body{
   border-radius: 5px;
 }
 
+.nav-link {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 30px;
+}
+.nav-link1{
+  margin-right: 75px;
+}
+
+
+
+
+
 
 
 .row1 {
@@ -68,7 +74,8 @@ body{
 }
 
 .container1 {
-  margin-top: 50px;
+  margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 .hr {
@@ -77,23 +84,30 @@ body{
   width: 50%;
 }
 .card{
-  border: 3px solid white;
+  border: 8px solid rgb(237, 237, 237);
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 .card-title {
-  font-size: 3rem;
-  font-weight: bold;
-  font-family: "rocinante-titling-variable", sans-serif;
-  font-variation-settings: "slnt" 0, "wght" 476;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 70px;
 }
 
 .card-text {
-  font-family: "new-science-mono", sans-serif;
-  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
+  font-size: 20px;
 }
 
 .intropic {
-  width: 100px;
+  width: 290px;
+  border-radius: 10px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  border: 5px solid white;
 }
 
 * {
@@ -123,7 +137,7 @@ body{
   background: #feb6c1;
   border-radius: 10px;
   border: solid rgb(255, 255, 255) 3px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
   text-align: center;
 }
 
@@ -131,21 +145,120 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin-right: 30px;
 }
 
 .nav-buttons button {
   padding: 10px 15px;
   border: none;
-  background: #feb6c1;
+  background: #000000;
   color: white;
   cursor: pointer;
-  border-radius: 5px;
-  border: solid rgb(255, 255, 255) 3px;
-  border-radius: 10px;
-  margin: 0 5px;
+  border-radius: 0;
+  border: solid rgb(72, 72, 72) 3px;
+  margin: 0 10px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 .nav-buttons button:hover {
-  background: #bb5383;
-  border: solid rgb(187, 187, 187) 3px;
+  background: #343434;
+  border: solid rgb(0, 0, 0) 3px;
+}
+.card-title2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 70px;
+  color:rgb(174, 174, 174);
+}
+
+h3{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h4{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+.footer-basic {
+  margin-top: 50px;
+  padding:40px 0;
+  background-color:#000000;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+.list-inline-item{
+  color: white;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.list-inline-item2{
+  color: rgb(222, 222, 222);
+  font-size: 20x;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
